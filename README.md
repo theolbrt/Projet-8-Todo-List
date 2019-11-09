@@ -6,3 +6,4 @@
 
 ![Diagramme de classe](https://github.com/theolbrt/ToDo-List/blob/master/UML/DiagrammeClasse.png)
 
+## DIAGRAMME DE SEQUENCE
