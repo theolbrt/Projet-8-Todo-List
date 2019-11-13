@@ -2,6 +2,10 @@
 
 L'objectif de ce projet était de reprndre un projet éxistant, de corriger les bugs, d'éffectuer des tests unitaires a l'aide de Jasmine et de créer une documentation fonctionnelle et un audit de performance.
 
+## SCREENSHOT
+
+![image-app](https://raw.githubusercontent.com/DesignGreg/Projet8-OpenClassRooms/master/Documentations%20-%20%C3%A9tape%204/Doc%20utilisateur/assets/Screenshot%2001.jpg)
+
 ## DIAGRAMME UML
 
 ### DIAGRAMME DE CLASSE
