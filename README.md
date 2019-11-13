@@ -8,8 +8,13 @@ L'objectif de ce projet était de reprndre un projet éxistant, de corriger les 
   <img src="https://raw.githubusercontent.com/DesignGreg/Projet8-OpenClassRooms/master/Documentations%20-%20%C3%A9tape%204/Doc%20utilisateur/assets/Screenshot%2001.jpg">
 </p>
 
+## INSTALLATION 
 
-
+Pour récupérer le projet :
+```bash
+git clone https://github.com/theolbrt/ToDo-List.git
+```
+ 
 
 ## DIAGRAMME UML
 
