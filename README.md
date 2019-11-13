@@ -5,7 +5,7 @@ L'objectif de ce projet était de reprndre un projet éxistant, de corriger les 
 ## SCREENSHOT
 
 <p align="center">
-  ![image-app](https://raw.githubusercontent.com/DesignGreg/Projet8-OpenClassRooms/master/Documentations%20-%20%C3%A9tape%204/Doc%20utilisateur/assets/Screenshot%2001.jpg)
+  <img src="https://raw.githubusercontent.com/DesignGreg/Projet8-OpenClassRooms/master/Documentations%20-%20%C3%A9tape%204/Doc%20utilisateur/assets/Screenshot%2001.jpg">
 </p>
 
 
