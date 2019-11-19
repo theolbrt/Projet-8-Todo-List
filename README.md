@@ -37,7 +37,11 @@ Enfin, la vue va essentiellement se concentrer sur la récupération de variable
 
 ## CORRECTION DE BUGS
 
-La premiere correction de bugs a effectuer était de réctifier l'orthographe de la fonction 
+La premiere correction de bugs a effectuer était de réctifier l'orthographe de la fonction addItem().
 
 ![Correction bug 1](https://github.com/theolbrt/ToDo-List/blob/master/img/modif1.png)
-img/modif1.png
+
+La seconde modification était d'améliorer la méthode qui permet de généré un ID unique.
+
+![Amelioration](https://github.com/theolbrt/ToDo-List/blob/master/img/modif2.png)
+
