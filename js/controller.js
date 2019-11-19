@@ -1,18 +1,10 @@
-/** 
- * @namespace controller
- * 
- * @description controler description.
- */
- 
 (function (window) {
 	'use strict';
 
 	/**
+	 * Takes a model and view and acts as the controller between them
 	 *
 	 * @constructor
-	 * @memberof controller
-	 * 
-	 * @description Takes a model and view and acts as the controller between them
 	 * @param {object} model The model instance
 	 * @param {object} view The view instance
 	 */
@@ -55,8 +47,8 @@
 	}
 
 	/**
-	 * 
-	 * 
+	 * Loads and initialises the view
+	 *
 	 * @param {string} '' | 'active' | 'completed'
 	 */
 	Controller.prototype.setView = function (locationHash) {
@@ -77,7 +69,6 @@
 	};
 
 	/**
-	 *
 	 * Renders all active tasks
 	 */
 	Controller.prototype.showActive = function () {
@@ -98,11 +89,10 @@
 	};
 
 	/**
-	 * 
 	 * An event to fire whenever you want to add an item. Simply pass in the event
 	 * object and it'll handle the DOM insertion and saving of the new item.
 	 */
-	Controller.prototype.addItem = function (title) {
+	Controller.prototype.adddItem = function (title) {
 		var self = this;
 
 		if (title.trim() === '') {
@@ -115,7 +105,7 @@
 		});
 	};
 
-	/**
+	/*
 	 * Triggers the item editing mode.
 	 */
 	Controller.prototype.editItem = function (id) {
@@ -125,7 +115,7 @@
 		});
 	};
 
-	/**
+	/*
 	 * Finishes the item editing mode successfully.
 	 */
 	Controller.prototype.editItemSave = function (id, title) {
@@ -148,8 +138,7 @@
 		}
 	};
 
-	/**
-	 * 
+	/*
 	 * Cancels the item editing mode.
 	 */
 	Controller.prototype.editItemCancel = function (id) {
@@ -187,7 +176,6 @@
 	};
 
 	/**
-	 * 
 	 * Will remove all completed items from the DOM and storage.
 	 */
 	Controller.prototype.removeCompletedItems = function () {
@@ -205,8 +193,6 @@
 	 * Give it an ID of a model and a checkbox and it will update the item
 	 * in storage based on the checkbox's state.
 	 *
-	 *
-	 * 
 	 * @param {number} id The ID of the element to complete or uncomplete
 	 * @param {object} checkbox The checkbox to check the state of complete
 	 *                          or not
@@ -227,8 +213,6 @@
 	};
 
 	/**
-	 *
-	 * 
 	 * Will toggle ALL checkboxes' on/off state and completeness of models.
 	 * Just pass in the event object.
 	 */
@@ -244,7 +228,6 @@
 	};
 
 	/**
-	 * 
 	 * Updates the pieces of the page which change depending on the remaining
 	 * number of todos.
 	 */
@@ -264,7 +247,6 @@
 
 	/**
 	 * Re-filters the todo items, based on the active route.
-	 * 
 	 * @param {boolean|undefined} force  forces a re-painting of todo items.
 	 */
 	Controller.prototype._filter = function (force) {
@@ -285,8 +267,6 @@
 
 	/**
 	 * Simply updates the filter nav's selected states
-	 * 
-	 * 
 	 */
 	Controller.prototype._updateFilterState = function (currentPage) {
 		// Store a reference to the active route, allowing us to re-filter todo
