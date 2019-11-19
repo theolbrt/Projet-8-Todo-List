@@ -24,7 +24,7 @@ git clone https://github.com/theolbrt/ToDo-List.git
 
 ### DIAGRAMME DE SEQUENCE
 
-![Diagramme de sequence](https://github.com/theolbrt/ToDo-List/blob/master/UML/SequenceTodo.png
+![Diagramme de sequence](https://github.com/theolbrt/ToDo-List/blob/master/UML/SequenceTodo.png)
 
 
 Cette application est basé sur le model MVC ( Model-Vue-Controller ) qui va permettre de séparer la logique du code en trois parties que l'on va retrouver dans des fichiers distincts.
