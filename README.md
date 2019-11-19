@@ -31,3 +31,8 @@ Le role du model va etre d'aller chercher les données dans une base de données
 Enfin, la vue va essentiellement se concentrer sur la récupération de variable pour savoir ce qu'elle doit afficher. 
 
 ### AUDIT DE PERFORMANCE
+
+[Suivez ce lien pour vous rendre sur l'audit de performance](https://github.com/theolbrt/ToDo-List.wiki.git)
+
+
+## CORRECTION DE BUGS
