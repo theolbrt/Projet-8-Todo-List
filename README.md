@@ -33,3 +33,6 @@ Enfin, la vue va essentiellement se concentrer sur la récupération de variable
 ### AUDIT DE PERFORMANCE
 
 [Suivez ce lien pour vous rendre sur l'audit de performance](https://github.com/theolbrt/ToDo-List.wiki.git)
+
+
+## CORRECTION DE BUGS
